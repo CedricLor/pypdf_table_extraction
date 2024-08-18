@@ -19,14 +19,14 @@ classifiers = [
 Changelog = "https://github.com/camelot-dev/camelot/blob/master/HISTORY.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.11"
 click = ">=8.0.1"
 chardet = "^5.1.0"
-numpy = "^1.24.2"
+numpy = "^1"
 openpyxl = "^3.1.0"
-pandas = "^1.5.3"
-pdfminer-six = "^20221105"
-pypdf = "^3.4.0"
+pandas = "^2.2.2"
+pdfminer-six = "^20231228"
+pypdf = "^4.3.1"
 tabulate = "^0.9.0"
 
 [tool.poetry.dev-dependencies]
